@@ -22,3 +22,23 @@ body {
   text-align: center;
 }
 /* End Container */
+
+/* flex */
+.flex {
+  display: flex;
+}
+/* End Flex */
+
+/* flex container items */
+input,
+button {
+  border: 1px solid #dedede;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+input[type="text"] {
+  width: 300px;
+}
