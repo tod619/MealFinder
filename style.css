@@ -71,6 +71,21 @@ input[type="text"] {
   grid-gap: 20px;
   margin-top: 20px;
 }
+
+.meal {
+  cursor: pointer;
+  position: relative;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+}
+
+.meal img {
+  width: 100%;
+  height: 100%;
+  border: 4px #fff solid;
+  border-radius: 2px;
+}
 /* End Meals */
 /* Media */
 @media (max-width: 800px) {
